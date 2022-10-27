@@ -12,13 +12,13 @@ Il pagamento avviene con la carta di credito, che non deve essere scaduta.
 
 
 
-require_once __DIR__ . '/user.php';
-require_once __DIR__ . '/general_product.php';
-require_once __DIR__ . '/food.php';
-require_once __DIR__ . '/toys.php';
-require_once __DIR__ . '/pet_beds.php';
+require_once __DIR__ . '/User.php';
+require_once __DIR__ . '/GeneralProduct.php';
+require_once __DIR__ . '/Food.php';
+require_once __DIR__ . '/Toys.php';
+require_once __DIR__ . '/PetBeds.php';
 
-$user = new User("Mario", "Rossi", true, 0002345, 2024); 
+$user = new User("Mario", "Rossi", true, '00003452', 2024); 
 
 echo "<pre>";
 var_dump($user);

@@ -3,7 +3,7 @@
 class User{
     public $name;
     public $surname;
-    protected $register = false;
+    protected $register;
     protected $expire_date;
     protected $credit_card;
     protected $discount = 0;
@@ -19,7 +19,7 @@ class User{
 
     protected function checkRegister(){
         if($this->register === true && $this->$expire_date >= 2022){
-            $this-> discount  = '20%';
+            $this-> $discount  = '20%';
         }else{
             echo 'Not discount applied';
         }

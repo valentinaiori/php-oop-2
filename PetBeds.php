@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/general_product.php';
+require_once __DIR__ . '/GeneralProduct.php';
 
 class PetBed extends Product{
     public $height;
